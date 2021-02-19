@@ -7,7 +7,7 @@
  }
 
 body{
- font-family: "Roboto Condensed" sans-serif;
+ font-family: "Roboto Condensed", sans-serif;
 }
 
 
@@ -57,3 +57,41 @@ nav ul li
  {
   border-top: 0.1875rem solid var(--primary-orange) ;
   }
+
+
+/*********************************HEADER****************************************/
+
+.header-wrapper
+{
+ position: relative;
+background: url(backgroundMain.jpeg) no-repeat;
+background-size: cover;
+background-position:center;
+height: 90vh;
+}
+
+.main-info
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-family: "Roboto Condensed", sans-serif;
+}
+
+.main-info h1{
+color: var(--primary-orange);
+text-transform: uppercase;
+}
+
+
+
+/*********************************TYPED TEXT****************************************/
+
+.typed-text{
+  font-size: 2rem;
+  color: var(--primary-white);
+  }
+
+
