@@ -2,6 +2,8 @@
 
 :root{
   --primary-white:#fff;
+  --primary-orange:#f9ab00;
+  --primary-dark: rgba(255,255,255,0);
  }
 
 body{
@@ -35,7 +37,7 @@ nav ul li
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   color: var(--primary-white) !important;
-  
+  border-top: 0.1875rem solid var(--primary-dark) ;
  }
 
  .navbar-brand
@@ -44,3 +46,14 @@ nav ul li
  
   height: 5rem !important;
  }
+
+ .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus
+ {
+  border-top: 0.1875rem solid var(--primary-orange) ;
+  
+ }
+
+ .navbar-nav > li > a:hover  
+ {
+  border-top: 0.1875rem solid var(--primary-orange) ;
+  }
