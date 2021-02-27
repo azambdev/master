@@ -1,0 +1,7 @@
+{
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.extensionsPath": "",
+    "emmet.includeLanguages": { "javascript":"javascriptreact" },
+"files.associations": {"*html":"html"},
+}
