@@ -7,6 +7,7 @@ import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import AboutMe from './components/AboutMe';
 import Services from './components/Services';
 import Experience from './components/Experience';
+import Footer from './components/Footer';
 function App() {
   return (
     <> 
@@ -39,6 +40,7 @@ function App() {
     <AboutMe /> 
     <Services /> 
     <Experience /> 
+    <Footer /> 
     </> 
   );
 }
