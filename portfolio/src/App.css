@@ -9,6 +9,7 @@
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
   --primary-dark-link: rgba(255, 255, 255, 0);
+  --primary-black: #000000;
   ;
 }
 
@@ -226,10 +227,8 @@ nav ul li {
 
 /*********************************EXPERIENCE****************************************/
 
-.experience{
-  
+.experience {
   padding: 0.7rem;
- 
 }
 
 .experience-wrapper {
@@ -294,32 +293,46 @@ nav ul li {
   font-weight: 900;
 }
 
-
 /*********************************MEDIA****************************************/
 
-@media(max-width: 768px)
-{
-.experience .container{
-  padding-left: o;
+@media(max-width: 768px) {
+  .experience .container {
+    padding-left: o;
+  }
+  .experience-wrapper::before {
+    left: 0.5rem;
+    margin-bottom: 1.875rem;
+  }
+  .timeline-block-right {
+    float: none;
+    width: 100%;
+  }
+  .timeline-block-left {
+    float: none;
+    direction: ltr;
+    width: 100%;
+  }
 }
 
+/*********************************FOOTER****************************************/
 
- .experience-wrapper::before{
-  left: 0.5rem;
-  margin-bottom: 1.875rem;
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
 }
 
-.timeline-block-right {
- float:none;
-width: 100%;
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
 }
 
-.timeline-block-left {
-  float:none;
-  direction: ltr;
-  width: 100%;
- }
-
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
 }
 
-
+.footer p {
+  margin-bottom: 0;
+}
